@@ -1,0 +1,15 @@
+{
+	"name": "film-sync",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"download": "tsx src/tests/download.ts"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.46.1",
+		"@types/node": "^22.5.2",
+		"tsx": "^4.19.0"
+	}
+}
